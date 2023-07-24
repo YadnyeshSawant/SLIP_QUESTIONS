@@ -21,7 +21,7 @@ void main()
         printf("ENTER THE PRICE OF THE ITEM: \t");
         scanf("%d",&I[i].price);
     }
-    printf("\n-------------------------SEARCH DETAILS--------------------\n");
+    printf("\n------------------------SEARCH DETAILS--------------------\n");
     max_price = I[0].price;
     for ( i = 0; i < n; i++)
     {
